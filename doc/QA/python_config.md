@@ -6,6 +6,9 @@
 官网下载：https://code.visualstudio.com/Download
 ### 2.2 VSCode插件安装
 Pylance
+Python Debugger
+Material Theme
+Project Manager
 ## ..
 
 ### ...
