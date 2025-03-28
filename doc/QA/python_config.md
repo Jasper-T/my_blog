@@ -29,7 +29,9 @@ Remote - SSH
     dpkg-reconfigure locales
   ```
   在交互式界面中，选择"en_US.UTF-8"或"C.UTF-8"。
+  
   4. locale -a
+  
   5. 设置语言环境
   ```shell
     export LC_ALL=C.utf8
