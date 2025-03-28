@@ -15,7 +15,13 @@
 
 - **详细文档👉：[./conda.md](./conda.md)**
 
-## 3 常用第三方库的下载与配置
+## 3 poetry
+  ```shell
+  poetry env use ~/anaconda3/envs/py310/bin/python
+  poetry install
+  ```
+
+## 4 常用第三方库的下载与配置
 
 - **目录**
  - [...](./python_3rd.md#)
