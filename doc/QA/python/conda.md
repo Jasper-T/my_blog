@@ -13,4 +13,4 @@ https://mirrors.cloud.tencent.com/pypi/simple/
 
 ------------------------------------------------------------
 
-**[返回Python](./python.md)**
+**[返回Python](/doc/QA/python/python.md)**

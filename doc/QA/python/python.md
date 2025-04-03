@@ -9,11 +9,11 @@
 
 ## 1 VSCode + Anaconda 开发环境配置
 
-- **详细文档👉：[./python_config.md](./python_config.md)**
+- **详细文档👉：[./python_config.md](/doc/QA/python/python_config.md)**
 
 ## 2 Conda 和 Pip 常用指令
 
-- **详细文档👉：[./conda.md](./conda.md)**
+- **详细文档👉：[conda.md](/doc/QA/python/conda.md)**
 
 ## 3 poetry
   ```shell
@@ -24,19 +24,19 @@
 ## 4 常用第三方库的下载与配置
 
 - **目录**
- - [...](./python_3rd.md#)
+ - [...](/doc/QA/python/python_3rd.md#)
    - ...
    - ...
    - ...
- - [...](./python_3rd.md#)
+ - [...](/doc/QA/python/python_3rd.md#)
    - ...
    - ...
    - ...
 
-- **详细文档👉：[./python_3rd.md](./python_3rd.md)**
+- **详细文档👉：[python_3rd.md](/doc/QA/python/python_3rd.md)**
 
 ------------------------------------------------------------
 
 ## 4 Q&A
 
-**[返回主页](../../README.md)**
+**[返回主页](/README.md)**

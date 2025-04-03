@@ -46,7 +46,7 @@
 - **监督学习** : 分类和回归算法，如线性回归、逻辑回归、支持向量机(SVM)。
 - **无监督学习** : 聚类和降维技术，如 k-means、主成分分析(PCA)。
 - **强化学习** : 通过与环境交互来学习策略的算法，如 Q-learning、SARSA。
-- **详细文档: [doc/ML/machine_learning.md](doc/ML/machine_learning.md)**
+- **详细文档: [doc/ML/machine_learning.md](/doc/ML/machine_learning.md)**
 
 ### 1.2 深度学习
 深度学习是机器学习的一个分支，涉及多层神经网络。这篇文档总结了深度学习的基本概念、原理和数学公式。
@@ -54,7 +54,7 @@
 - **前馈神经网络(Feedforward Neural Networks)** : 最基本的深度学习网络结构。
 - **梯度下降与优化算法** : 用于训练神经网络的优化技术，如随机梯度下降(SGD)、Adam 和 RMSprop。
 - **正则化技术** : 防止过拟合的方法，如 dropout、L2 正则化等。
-- **详细文档👉: [doc/DL/deep_learning.md](doc/DL/deep_learning.md)**
+- **详细文档👉: [doc/DL/deep_learning.md](/doc/DL/deep_learning.md)**
 
 ### 1.3 CNN
 卷积神经网络(CNN)是深度学习中的核心结构之一。这篇文档主要包括 CNN 的基本原理、一些变体以及如何使用Pytorch和Tensorflow搭建网络。
@@ -64,7 +64,7 @@
 - **ResNet** : 引入了残差学习的概念，解决了深层网络的训练难题。
 - **Inception** : 通过使用不同大小的卷积核来捕捉多尺度特征，提升了网络的表达能力。
 - **DenseNet** : 通过密集连接的方式来增强特征的重用性，改善了梯度传播。
-- **详细文档👉: [doc/DL/cnn.md](doc/DL/cnn.md)**
+- **详细文档👉: [doc/DL/cnn.md](/doc/DL/cnn.md)**
 
 ### 1.4 注意力机制
 注意力机制是现代深度学习模型中的重要组成部分，尤其在处理序列数据时。这篇文档总结了注意力机制的基本概念、不同类型及其应用。
@@ -73,7 +73,7 @@
 - **多头注意力** : 通过多个注意力头来捕捉不同的特征信息，提升模型的表达能力。
 - **注意力机制的变体** : 包括局部注意力、全局注意力等不同的注意力策略。
 - **应用** : 在各类模型中的应用，如 Transformer、BERT、GPT 等。
-- **详细文档👉: [doc/DL/attention.md](doc/DL/attention.md)**
+- **详细文档👉: [doc/DL/attention.md](/doc/DL/attention.md)**
 
 ### 1.5 Transformer
 Transformer 模型是自然语言处理和其他任务中具有革命性影响的架构。这篇文档总结了 Transformer 的基本原理及其变体。
@@ -82,21 +82,21 @@ Transformer 模型是自然语言处理和其他任务中具有革命性影响�
 - **GPT** : 生成预训练变换器，主要用于生成任务，如文本生成。
 - **T5** : 文本到文本的转换器，适用于各种自然语言处理任务。
 - **Transformers 在其他领域的应用** : 如图像处理、生成建模等。
-- **详细文档👉 : [doc/DL/transformer.md](doc/DL/transformer.md)**
+- **详细文档👉 : [doc/DL/transformer.md](/doc/DL/transformer.md)**
 
 ### 1.6 GAN
 生成对抗网络(GANs)是一种生成模型，能够生成与真实数据类似的样本。这篇文档讨论了 GANs 的基本原理和应用。
 - **GANs 的基本原理** : 生成器和判别器的对抗训练过程。
 - **常见 GAN 变体** : 如 DCGAN、WGAN 和 CycleGAN。
 - **GANs 的应用** : 图像生成、图像修复、风格迁移等领域的应用。
-- **详细文档👉 : [doc/DL/gans.md](doc/DL/gan.md)**
+- **详细文档👉 : [doc/DL/gans.md](/doc/DL/gan.md)**
 
 ### 1.7 强化学习
 强化学习是机器学习中的一个重要领域，涉及智能体通过与环境交互来学习策略。这篇文档总结了强化学习的基础概念。
 - **主要组成部分** : 环境、智能体、奖励、策略等。
 - **强化学习的类别** : 基于价值、策略、模型。
 - **常见算法** : Q学习、策略梯度等。
-- **详细文档👉 : [doc/RL/reinforcement_learning.md](doc/RL/reinforcement_learning.md)**
+- **详细文档👉 : [doc/RL/reinforcement_learning.md](/doc/RL/reinforcement_learning.md)**
 
 **[目录](#目录)**
 
@@ -108,20 +108,20 @@ Transformer 模型是自然语言处理和其他任务中具有革命性影响�
 
 One-Stage 模型不需要候选区域生成，直接在图像的特征图上进行目标分类和边界框回归。由于其简单的结构和高效的处理流程，适合实时检测任务。
 
-- **[YOLO 系列](doc/OD/yolo.md)** : YOLO(You Only Look Once)将目标检测问题转化为回归问题，通过单次前向传播完成检测任务。<a name="yolo"></a>
-- **[SSD 系列](doc/OD/ssd.md)** : SSD(Single Shot MultiBox Detector)在不同尺度的特征图上进行检测，适合处理多种大小的目标。<a name="ssd"></a>
+- **[YOLO 系列](/doc/OD/yolo.md)** : YOLO(You Only Look Once)将目标检测问题转化为回归问题，通过单次前向传播完成检测任务。<a name="yolo"></a>
+- **[SSD 系列](/doc/OD/ssd.md)** : SSD(Single Shot MultiBox Detector)在不同尺度的特征图上进行检测，适合处理多种大小的目标。<a name="ssd"></a>
 
 ### 2.2 Two-Stage
 
 Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和边界框回归。虽然检测速度较慢，但通常具备更高的精度。
 
-- **[RCNN 系列](doc/OD/rcnn.md)** : RCNN(Regions with Convolutional Neural Networks)通过候选区域生成和分类回归实现目标检测，代表模型包括 Fast RCNN、Faster RCNN 和 Mask RCNN。
+- **[RCNN 系列](/doc/OD/rcnn.md)** : RCNN(Regions with Convolutional Neural Networks)通过候选区域生成和分类回归实现目标检测，代表模型包括 Fast RCNN、Faster RCNN 和 Mask RCNN。
 
 ### 2.3 评价指标
 
 目标检测任务中的评价指标至关重要。常见的指标包括精确率、召回率、F1 分数、平均精度 (AP)、均值平均精度 (mAP) 以及 IoU (Intersection over Union) 等。这些指标能够帮助我们衡量模型的检测性能和定位精度。
 
-- **[评价指标](doc/OD/evaluation.md)**
+- **[评价指标](/doc/OD/evaluation.md)**
 
 **[目录](#目录)**
 
@@ -134,7 +134,7 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 - **多目标跟踪** : ReID、OSNet等
 - **红外目标跟踪** : 滤波算法等
 
-- **详细文档👉 : [doc/OT/object_tracking.md](doc/OT/object_tracking.md)**
+- **详细文档👉 : [doc/OT/object_tracking.md](/doc/OT/object_tracking.md)**
 
 **[目录](#目录)**
 
@@ -146,7 +146,7 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 - **实例分割(Instance Segmentation)** : 不仅区分不同类别的像素，还要区分同类别的不同实例(如多辆车); Mask R-CNN、SOLO、YOLACT。
 - **全景分割(Panoptic Segmentation)** : 同时实现语义分割和实例分割，即分割出所有物体，并赋予类别和实例信息; Panoptic FPN、DETR。
 
-- **详细文档👉 : [doc/SEG/seg.md](doc/SEG/seg.md)**
+- **详细文档👉 : [doc/SEG/seg.md](/doc/SEG/seg.md)**
 
 **[目录](#目录)**
 
@@ -166,15 +166,15 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 
 ## 7 量化、部署与推理
 
-### 7.1 [ONNX](doc/Quant/onnx.md)
+### 7.1 [ONNX](/doc/Quant/onnx.md)
 
-### 7.2 [TensorRT](doc/Quant/trt.md)
+### 7.2 [TensorRT](/doc/Quant/trt.md)
 
-### 7.3 [瑞芯微Rockchip RKNN](doc/Quant/rknn.md)
+### 7.3 [瑞芯微Rockchip RKNN](/doc/Quant/rknn.md)
 
-### 7.4 [AMD Xilinx Vitis](doc/Quant/vitis.md)
+### 7.4 [AMD Xilinx Vitis](/doc/Quant/vitis.md)
 
-### 7.5 [算能 Sophon](doc/Quant/sophon.md)
+### 7.5 [算能 Sophon](/doc/Quant/sophon.md)
 
 **[目录](#目录)**
 
@@ -184,19 +184,19 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 
 在研究和工作过程中，我遇到了一些技术难题和挑战，并在文档中记录了这些问题的详细描述和解决方案。
 
-### 8.1 [Python](doc/QA/python.md)
+### 8.1 [Python](/doc/QA/python.md)
 在这篇文档中，我记录了在使用 Python 编程过程中遇到的一些问题及其解决方法。
 
-### 8.2 [Cpp](doc/QA/cpp.md)
+### 8.2 [Cpp](/doc/QA/cpp.md)
 在这篇文档中，我记录了在使用 C++ 编程过程中遇到的一些问题及其解决方法。
 
-### 8.3 [Linux](doc/QA/linux.md)
+### 8.3 [Linux](/doc/QA/linux.md)
 在这篇文档中，我记录了在 Linux 环境下，编程过程中常用指令、遇到的一些问题及其解决方法。
 
-### 8.4 [Docker](doc/QA/docker.md)
+### 8.4 [Docker](/doc/QA/docker.md)
 在这篇文档中，我记录了使用 docker 容器开发的常用指令、遇到的一些问题及其解决方法。
 
-### 8.5 [Git & ssh](doc/QA/git.md)
+### 8.5 [Git & ssh](/doc/QA/git.md)
 在这篇文档中，我记录了git的常用指令、ssh配置相关问题。
 
 **[目录](#目录)**

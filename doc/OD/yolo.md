@@ -78,4 +78,4 @@ Keys: YOLO（You Only Look Once）, One-stage, Object detection
 
 ------------------------------------------------------------
 
-**[返回主页](../../README.md)**
+**[返回主页](/README.md)**

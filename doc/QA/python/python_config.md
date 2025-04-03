@@ -2,17 +2,12 @@
 ## 1 项目目录结构
 
 ## 2 VSCode开发环境配置
-### 2.1 VSCode安装
-官网下载：https://code.visualstudio.com/Download
-### 2.2 VSCode插件安装
-Better Comments
-Project Manager
-Pylance
-python
-Python Debugger
-Python Indent
-Material Theme
-Remote - SSH
+### 2.1 基础设置
+
+- **详细文档👉：[vscode.md](/doc/QA/vscode.md)**
+
+### 2.2 Python相关
+
 ## 3 Anaconda安装
 ### 3.1 容器中安装
   1. update
@@ -42,4 +37,4 @@ Remote - SSH
 
 ------------------------------------------------------------
 
-**[返回Python](./python.md)**
+**[返回Python](/doc/QA/python/python.md)**
