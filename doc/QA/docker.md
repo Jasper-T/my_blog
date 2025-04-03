@@ -9,13 +9,12 @@
 ## 容器
 
 ```bash
-docker run -e VSCODE_SERVER_DIR=/workspace/.vscode-server -d --shm-size=32g --runtime=nvidia --privileged --name my_container -v local/:/workspace image:tag sleep infinity
+docker run -d --shm-size=32g --runtime=nvidia --privileged --name my_container -v local/:/workspace image:tag sleep infinity
 ```
 
 - `-e` : 向容器传递环境变量
   - `UID=$(id -u)` : 获取当前用户的 UID , 传递给 Docker 容器
   - `GID=$(id -g)` : 获取当前用户的 GID , 传递给 Docker 容器
-  - `VSCODE_SERVER_DIR=/workspace/.vscode-server` : VS Code 远程开发服务器安装到 /workspace/.vscode-server，而不是默认的 /root/.vscode-server
 - `-d` : 启动容器并让它在后台运行
 - `--shm-size` : 设置共享内存的大小。
 - `--runtime` : 用于 GPU 支持

@@ -10,13 +10,16 @@
   - [tpu-mlir](https://github.com/sophgo/tpu-mlir)
   - [sophon-demo](https://github.com/sophgo/sophon-demo)
 
-
 ## 目录
 
 - [算能 Sophon](#算能-sophon)
   - [目录](#目录)
   - [1 环境设置](#1-环境设置)
   - [2 模型量化](#2-模型量化)
+    - [2.1 Model Transform](#21-model-transform)
+    - [2.2 Calibration](#22-calibration)
+    - [2.3 Mixed Precision](#23-mixed-precision)
+    - [2.4 Export(Deploy)](#24-exportdeploy)
   - [3 模型部署](#3-模型部署)
   - [4 runtime](#4-runtime)
 
@@ -30,6 +33,13 @@
 --------------------------------------------------
 
 ## 2 模型量化
+### 2.1 Model Transform
+
+### 2.2 Calibration
+
+### 2.3 Mixed Precision
+
+### 2.4 Export(Deploy)
 
 
 **[目录](#目录)**

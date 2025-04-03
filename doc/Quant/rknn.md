@@ -25,7 +25,7 @@
 --------------------------------------------------
 
 ## 1 环境设置
-
+见[RKNPU_Quick_Start](doc/sources/pdfs/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.0_CN.pdf)
 
 **[目录](#目录)**
 

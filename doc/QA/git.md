@@ -31,7 +31,7 @@ ssh-keygen -t rsa -b 4096 -C    "email@example.com"
     nano ~/.ssh/config
     ```
     确保文件内容：
-    ```config
+    ```yaml
     Host git
         HostName github.com
         User git
@@ -48,7 +48,7 @@ ssh-keygen -t rsa -b 4096 -C    "email@example.com"
     ssh -T git@github.com
     ```
     如果成功，你会看到类似如下的输出：
-    ```
+    ```yaml
     Hi "username" ! You've successfully authenticated, but GitHub does not provide shell access.
     ```
 
@@ -63,7 +63,7 @@ ssh-keygen -t rsa -b 4096 -C    "email@example.com"
     nano ~/.ssh/config
     ```
     确保文件内容：
-    ```config
+    ```yaml
     Host Server1
         HostName 233.233.233.233
         Port 22
