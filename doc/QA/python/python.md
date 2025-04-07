@@ -38,5 +38,12 @@
 ------------------------------------------------------------
 
 ## 4 Q&A
+### 4.1
+```shell
+ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+```
+```bash
+apt-get install ffmpeg libsm6 libxext6  -y
+```
 
 **[返回主页](/README.md)**
