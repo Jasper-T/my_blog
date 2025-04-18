@@ -19,7 +19,7 @@
 
   ```shell
     下载
-    wget https://mirrors.tuna.tsinghua.edu.cn/python/3.11.8/Python-3.11.8.tgz
+    wget https://mirrors.huaweicloud.com/python/3.11.8/Python-3.11.8.tgz
     
     # 解压
     tar -xzf Python-3.11.8.tgz
