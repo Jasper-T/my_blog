@@ -9,6 +9,7 @@
     - [TensorRT ONNX Tools](https://docs.nvidia.com/deeplearning/tensorrt/latest/index.html#tools)
     - [TensorRT Discussion Forums](https://devtalk.nvidia.com/default/board/304/tensorrt/)
     - [TensorRT Release Notes](https://docs.nvidia.com/deeplearning/tensorrt/release-notes/index.html)
+    - [TensorRT Python API](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/python-api-docs.html)
 
 
 - **Github**:
