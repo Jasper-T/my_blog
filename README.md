@@ -193,19 +193,12 @@ Two-Stage 模型首先生成候选区域，然后对这些区域进行分类和�
 
 在研究和工作过程中，我遇到了一些技术难题和挑战，并在文档中记录了这些问题的详细描述和解决方案。
 
-<<<<<<< HEAD
 ### 8.1 [Python](/doc/QA/python/README.md)
 
 在这篇文档中，我记录了在使用 Python 编程过程中遇到的一些问题及其解决方法。
 
 ### 8.2 [Cpp](/doc/QA/cpp/README.md)
 
-=======
-### 8.1 [Python](/doc/QA/python/python.md)
-在这篇文档中，我记录了在使用 Python 编程过程中遇到的一些问题及其解决方法。
-
-### 8.2 [Cpp](/doc/QA/cpp/cpp.md)
->>>>>>> ed7336253e40a0182794ed5c3e8fdff3b6f3b229
 在这篇文档中，我记录了在使用 C++ 编程过程中遇到的一些问题及其解决方法。
 
 ### 8.3 [Linux](/doc/QA/linux.md)

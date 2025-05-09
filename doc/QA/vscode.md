@@ -2,10 +2,12 @@
 
 ## 1 安装
 
-官网下载：https://code.visualstudio.com/Download
+官网下载：<https://code.visualstudio.com/Download>
 
 ## 2 插件安装
+
 ### 2.1 开发必备
+
 - Docker
 - Project Manager
 - Remote Development
@@ -25,11 +27,10 @@
 - Doxygen Documentation Generator：快速生成代码注释模板，简单易用
 
 ### 2.2 界面
+
 - Background
 - Better Comments
 - Material Theme
 - Python Indent
-
-
 
 **[返回主页](/README.md)**

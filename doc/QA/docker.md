@@ -1,14 +1,14 @@
 # Docker
 
 ## 镜像
+
 `docker images`:查看本地已拉取的镜像列表。
 
 `docker load -i myimage.tar`:从压缩文件加载 Docker 镜像到本地 Docker 镜像仓库。
 
-
 ## 容器
 
-```bash
+```shell
 docker run -d --shm-size=32g --runtime=nvidia --privileged --name my_container -v local/:/workspace image:tag sleep infinity
 ```
 
@@ -24,6 +24,6 @@ docker run -d --shm-size=32g --runtime=nvidia --privileged --name my_container -
 - `sleep infinity` : 让容器进入永久睡眠状态，直到手动停止
 - `-it` : 使容器保持交互模式（-i 表示交互，-t 为分配伪终端）。通常用于进入容器终端。
 
-```bash
+```shell
 docker run -it --rm -v ${PWD}:/workspace image bash
 ```

@@ -4,7 +4,7 @@
 
 ## ssh
 
-```bash
+```shell
 ssh-genkey
 
 ssh-copy-id -i ~/.ssh/id_rsa.pub User@HostName -p Port
@@ -12,7 +12,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub User@HostName -p Port
 vim ~/.ssh/config
 ```
 
-```
+```txt
 Host Server1
     HostName 233.233.233.233
     Port 22
@@ -20,6 +20,7 @@ Host Server1
     IdentityFile ~/.ssh/id_rsa
     
 ```
+
 `IdentitiesOnly yes` 只接受 SSH key 登录
 
 --------------------------------------------------
