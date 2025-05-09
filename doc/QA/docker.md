@@ -23,3 +23,7 @@ docker run -d --shm-size=32g --runtime=nvidia --privileged --name my_container -
 - `-v` : 挂载主机的卷（目录）到容器内
 - `sleep infinity` : 让容器进入永久睡眠状态，直到手动停止
 - `-it` : 使容器保持交互模式（-i 表示交互，-t 为分配伪终端）。通常用于进入容器终端。
+
+```bash
+docker run -it --rm -v ${PWD}:/workspace image bash
+```
