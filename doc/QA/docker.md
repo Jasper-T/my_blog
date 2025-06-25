@@ -27,3 +27,7 @@ docker run -d --shm-size=32g --runtime=nvidia --privileged --name my_container -
 ```shell
 docker run -it --rm -v ${PWD}:/workspace image bash
 ```
+
+```shell
+docker run -d --gpus all --shm-size=32g --privileged --name test -v /home/ai/code:/code /bin/bash
+```
