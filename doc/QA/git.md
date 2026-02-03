@@ -100,4 +100,40 @@ ssh-keygen -t rsa -b 4096 -C    "email@example.com"
 
 --------------------------------------------------
 
+## 分支管理策略：Git Flow
+
+1. main 分支：
+
+始终保持可发布状态，生产环境中的代码。
+
+每次发布都会创建一个新的版本标签（如 v1.0.0）。
+
+只有通过 release 或 hotfix 合并的代码才会出现在 main 分支上。
+
+develop 分支：
+
+所有新的功能和修复首先合并到 develop 分支。
+
+作为开发中的“最新”版本，不可直接用于生产。
+
+feature/* 分支：
+
+每个新的特性都从 develop 分支创建一个新的 feature 分支。
+
+开发完成后，合并回 develop。
+
+release/* 分支：
+
+当开发完成且准备发布时，从 develop 创建 release/* 分支。
+
+release 分支主要用于 bug 修复、文档修改和版本号更新。
+
+完成后合并到 main 和 develop 分支。
+
+hotfix/* 分支：
+
+当 main 分支上的生产环境发现紧急 bug 时，从 main 创建 hotfix/* 分支进行修复。
+
+完成后合并到 main 和 develop，并打上新标签。
+
 **[返回主页](/README.md)**
